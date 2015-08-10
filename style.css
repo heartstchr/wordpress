@@ -2785,7 +2785,7 @@ p > video {
 
 	.page-header {
 		border-bottom: 0;
-		border-left: 7px solid #333;
+		border-left: 2px solid #333;
 		padding: 3.8461% 7.6923%;
 	}
 
@@ -4435,6 +4435,7 @@ p > video {
 
 	.hentry {
 		padding-top: 4.3333%;
+		border-left: 2px solid #23B4CD;
 	}
 
 	.hentry + .hentry,
@@ -4561,7 +4562,8 @@ p > video {
 	}
 
 	.page-header {
-		padding: 4.1666% 8.3333%;
+		padding: 1.1666% 2.3333%;
+		position: relative;
 	}
 
 	.page-content {
