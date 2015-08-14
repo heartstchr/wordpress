@@ -4568,6 +4568,7 @@ p > video {
 
 	.page-content {
 		padding: 8.3333%;
+		position: relative;
 	}
 
 	.taxonomy-description {
