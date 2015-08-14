@@ -1020,7 +1020,7 @@ a:focus {
 .pagination .prev,
 .pagination .next {
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
-	background-color: #333;
+	background-color: #23B4CD;;
 	color: #fff;
 	display: inline-block;
 	height: 48px;
@@ -4242,15 +4242,22 @@ p > video {
 		margin: 4.3333% 4.3333% 0;
     	position: relative;
 	}
-
+	/*jiwan*/
+	.post-navigation:hover{
+		box-shadow: 0px 0px 4px 1px rgba(197, 197, 197, 0.70);
+	}
 	.post-navigation a {
 		padding: 1% 2%;
 	}
 
 	.pagination {
-		margin: 8.333% 8.333% 0;
+		margin: 4.333% 4.333% 0;
+    	position: relative;
 	}
-
+	/*jiwan*/
+	.pagination:hover{
+		box-shadow: 0px 0px 4px 1px rgba(197, 197, 197, 0.70);
+	}
 	.pagination .nav-links {
 		min-height: 3.2em;
 	}
@@ -4436,6 +4443,10 @@ p > video {
 	.hentry {
 		padding-top: 4.3333%;
 		border-left: 2px solid #23B4CD;
+	}
+	/*jiwan*/
+	.hentry:hover{
+		box-shadow: 0px 0px 4px 1px rgba(197, 197, 197, 0.70);
 	}
 
 	.hentry + .hentry,
