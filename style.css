@@ -4242,7 +4242,6 @@ p > video {
 		margin: 4.3333% 4.3333% 0;
     	position: relative;
 	}
-	/*jiwan*/
 	.post-navigation:hover{
 		box-shadow: 0px 0px 4px 1px rgba(197, 197, 197, 0.70);
 	}
@@ -4254,7 +4253,6 @@ p > video {
 		margin: 4.333% 4.333% 0;
     	position: relative;
 	}
-	/*jiwan*/
 	.pagination:hover{
 		box-shadow: 0px 0px 4px 1px rgba(197, 197, 197, 0.70);
 	}
