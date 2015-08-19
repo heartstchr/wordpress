@@ -333,6 +333,16 @@ function manageScripts_search_form_modify( $html ) {
 }
 add_filter( 'get_search_form', 'manageScripts_search_form_modify' );
 
+
+// Remove ?ver=x.x from css and js
+function remove_cssjs_ver( $src ) {
+ if( strpos( $src, '?ver=' ) )
+ $src = remove_query_arg( 'ver', $src );
+ return $src;
+}
+add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
+add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
+
 /**
  * Implement the Custom Header feature.
  *
