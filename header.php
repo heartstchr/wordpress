@@ -21,11 +21,34 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
 
 <?php include_once("tagmanager.php") ?>
-
-
+<div class="wrap">
+			<div class="social">
+				<a href="https://plus.google.com/b/102221474906232522506/+ManageadwordsSaveYourTime/about" target="_blank">
+					<span class="genericon genericon-googleplus"></span>
+				</a>
+				<a href="https://www.facebook.com/pages/ManageAdwords/682981981833142" target="_blank">
+					<span class="genericon genericon-facebook"></span>
+				</a>
+				<a href="https://twitter.com/manageadwords" target="_blank">
+			 		<span class="genericon genericon-twitter"></span>
+			 	</a>
+			 	<!--a href="" target="_blank">
+			 		<span class="genericon genericon-linkedin-alt"></span>
+			 	</a-->
+			 	<a href="https://github.com/manageAdwords" target="_blank">
+			 		<span class="genericon genericon-github"></span>
+			 	</a>
+			 	<!--a href="" target="_blank">
+			 		<span class="genericon genericon-bug"></span>
+			 	</a-->
+			 	<a href="mailto:contact@manageadwords.com" target="_blank">
+			 		<span class="genericon genericon-mail"></span>
+			 	</a>
+			</div>	
+		</div>
 <div id="page" class="hfeed site">
 <!-- 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
  -->

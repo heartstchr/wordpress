@@ -10,7 +10,7 @@ Text Domain: manageScripts
 
 /**
  * Table of Contents
- *
+ * 0.0 - jiwan class
  * 1.0 - Reset
  * 2.0 - Genericons
  * 3.0 - Typography
@@ -44,7 +44,32 @@ Text Domain: manageScripts
  * 17.0 - Print
  */
 
-
+/**
+ * 0.0 - jiwan class
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
+ */
+.wrap{
+	background-color: #F3CF50;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 1px 1px 4px 1px #ADA8A8;
+}
+.wrap a {
+	color: #FFFFFF;
+}
+.social{
+	text-align: center;
+}
+.social .genericon{
+	font-size: 21px;
+    padding: 5px;
+}
+.sidebar{
+	top: 30px;
+}
 /**
  * 1.0 - Reset
  *
@@ -523,7 +548,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	-webkit-appearance: button;
-	background-color: #333;
+	background-color: #23B4CD;
 	border: 0;
 	color: #fff;
 	cursor: pointer;
@@ -1889,7 +1914,9 @@ a.post-thumbnail:focus {
 .full-size-link {
 	margin-right: 1em;
 }
-
+.byline{
+	display: none;
+}
 .format-aside .entry-format:before {
 	content: "\f101";
 }
@@ -4060,6 +4087,7 @@ p > video {
 	}
 
 	.sidebar {
+		background-color: #23B4CD;
 		float: left;
 		margin-right: -100%;
 		max-width: 413px;
@@ -4321,12 +4349,13 @@ p > video {
 		background-color: transparent;
 		border-bottom: 0;
 		margin: 10% 0;
-		padding: 0 10%;
+		padding: 0 8%;
 	}
 
 	.site-branding {
 		min-height: 0;
 		padding: 0;
+		text-align: center;
 	}
 
 	.site-title {
@@ -4394,6 +4423,7 @@ p > video {
 	.widget input[type="search"],
 	.widget textarea {
 		padding: 0.4583em;
+		box-shadow: 1px 1px 4px 1px #CCC9C9 inset;
 	}
 
 	.widget .wp-caption-text,
