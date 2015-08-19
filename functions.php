@@ -334,7 +334,7 @@ function manageScripts_search_form_modify( $html ) {
 add_filter( 'get_search_form', 'manageScripts_search_form_modify' );
 
 
-// Remove ?ver=x.x from css and js
+// jiwan Remove ?ver=x.x from css and js
 function remove_cssjs_ver( $src ) {
  if( strpos( $src, '?ver=' ) )
  $src = remove_query_arg( 'ver', $src );
