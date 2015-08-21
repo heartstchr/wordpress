@@ -158,25 +158,25 @@ function manageScripts_fonts_url() {
 	 * Translators: If there are characters in your language that are not supported
 	 * by Noto Sans, translate this to 'off'. Do not translate into your own language.
 	 */
-	if ( 'off' !== _x( 'on', 'Noto Sans font: on or off', 'twentyfifteen' ) ) {
-		$fonts[] = 'Noto Sans:400italic,700italic,400,700';
-	}
+	// if ( 'off' !== _x( 'on', 'Noto Sans font: on or off', 'twentyfifteen' ) ) {
+	// 	$fonts[] = 'Noto Sans:400italic,700italic,400,700';
+	// }
 
-	/*
-	 * Translators: If there are characters in your language that are not supported
-	 * by Noto Serif, translate this to 'off'. Do not translate into your own language.
-	 */
-	if ( 'off' !== _x( 'on', 'Noto Serif font: on or off', 'twentyfifteen' ) ) {
-		$fonts[] = 'Noto Serif:400italic,700italic,400,700';
-	}
+	// /*
+	//  * Translators: If there are characters in your language that are not supported
+	//  * by Noto Serif, translate this to 'off'. Do not translate into your own language.
+	//  */
+	// if ( 'off' !== _x( 'on', 'Noto Serif font: on or off', 'twentyfifteen' ) ) {
+	// 	$fonts[] = 'Noto Serif:400italic,700italic,400,700';
+	// }
 
-	/*
-	 * Translators: If there are characters in your language that are not supported
-	 * by Inconsolata, translate this to 'off'. Do not translate into your own language.
-	 */
-	if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'twentyfifteen' ) ) {
-		$fonts[] = 'Inconsolata:400,700';
-	}
+	// /*
+	//  * Translators: If there are characters in your language that are not supported
+	//  * by Inconsolata, translate this to 'off'. Do not translate into your own language.
+	//  */
+	// if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'twentyfifteen' ) ) {
+	// 	$fonts[] = 'Inconsolata:400,700';
+	// }
 
 	/*
 	 * Translators: To add an additional character subset specific to your language,
@@ -228,6 +228,9 @@ function manageScripts_scripts() {
 
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.2' );
+	
+	// load new font
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Oswald:300|Lato:400,300', array(), CHILD_THEME_VERSION );
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'twentyfifteen-style', get_stylesheet_uri() );
