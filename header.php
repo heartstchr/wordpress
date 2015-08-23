@@ -52,14 +52,15 @@
 <div id="page" class="hfeed site">
 <!-- 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
  -->
+ 	 <!-- role="banner" -->
 	<div id="sidebar" class="sidebar">
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" class="site-header"> 
 			<div class="site-branding">
 				<?php
 					if ( is_front_page() && is_home() ) : ?>
 						<h1 class="site-title">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					       		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo" width="100px"  height="45px"/>
+					       		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo" width="100"  height="45"/>
 					    	</a>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 								<?php bloginfo( 'name' ); ?>
@@ -68,7 +69,7 @@
 					<?php else : ?>
 						<p class="site-title">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					       		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo" width="100px" height="45px"/>
+					       		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo" width="100" height="45"/>
 					    	</a>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 								<?php bloginfo( 'name' ); ?>
