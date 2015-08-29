@@ -51,25 +51,27 @@ Text Domain: manageScripts
  * work of Eric Meyer, Nicolas Gallagher, Jonathan Neal, and Blueprint.
  */
 .wrap{
-	background-color: #F3CF50;
     position: fixed;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 1px 1px 4px 1px #ADA8A8;
-}
-.social{
-	text-align: center;
+    top: 35.5%;
+    z-index: 100;
 }
 .social .genericon{
 	font-size: 24px;
-    padding: 5px;
+    padding: 4px 4px 1px 10px;
 }
-.sidebar{
-	top: 30px;
+.social-icon{
+	background-color: #23B4CD;
+	margin-bottom: 5px;
+	border-radius: 0 4px 4px 0;
+	box-shadow: 0 0 4px 1px rgba(160, 160, 160, 0.77);
 }
-.site{
-	position: relative;
-    top: 31px;
+.social-icon a{
+	color: #F3CF50;
+}
+.entry-content img{
+	padding: 4px;
+    border: 1px solid #ACF3FF;
+    border-radius: 4px;
 }
 .site-title a{
 	color: #000;
