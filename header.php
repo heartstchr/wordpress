@@ -52,7 +52,7 @@
 			 		<span class="genericon genericon-bug"></span>
 			 	</a-->
 			<div class="social-icon">
-			 	<a href="mailto:contact@manageadwords.com" target="_blank">
+			 	<a href="mailto:heartstchr@live.com" target="_blank">
 			 		<span class="genericon genericon-mail"></span>
 			 	</a>
 			</div>
