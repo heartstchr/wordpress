@@ -53,6 +53,19 @@ if ( post_password_required() ) {
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'twentyfifteen' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+	<?php 
+		$comment_args = array( 'title_reply'=>'Got Something To Say:',
+		'fields' => apply_filters( 'comment_form_default_fields', array(
+				'author' => '<p class="comment-form-author">'.
+						'<input id="author" name="author" placeholder="Your Good Name *" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>',   
+				'email'  => '<p class="comment-form-email">' .
+						'<input id="email" name="email" placeholder="Your Email Please*" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />'.'</p>',
+						'url'    => '' ) ),
+				'comment_field' => '<p>' .
+						'<textarea id="comment" placeholder="Let us know what you have to say:" name="comment" cols="45" rows="2" aria-required="true"></textarea>' .
+						'</p>',
+				'comment_notes_after' => '',
+		);
+comment_form($comment_args); ?>
 
 </div><!-- .comments-area -->
