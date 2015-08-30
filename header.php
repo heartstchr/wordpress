@@ -22,8 +22,6 @@
 </head>
 
 <body <?php body_class(); ?> >
-
-<?php include_once("tagmanager.php") ?>
 <div class="wrap">
 	<div class="social">
 			<div class="social-icon">
