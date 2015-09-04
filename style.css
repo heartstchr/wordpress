@@ -63,7 +63,7 @@ Text Domain: manageScripts
 	background-color: #23B4CD;
 	margin-bottom: 5px;
 	border-radius: 0 4px 4px 0;
-	box-shadow: 0 0 4px 1px rgba(160, 160, 160, 0.77);
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
 .social-icon a{
 	color: #F3CF50;
@@ -91,6 +91,9 @@ p .alert{
     width: 30px;
     height: 30px;
     font-size: 30px;
+}
+.entry-content p{
+	font-family: 'lato', sans-serif ;
 }
 @media screen and (max-width: 46.25em){
 	.site-header {
@@ -126,7 +129,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-family: "Oswald", sans-serif;
 	font-size: 100%;
 	font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
 	margin: 0;
 	outline: 0;
 	padding: 0;
@@ -284,7 +287,7 @@ h5,
 h6 {
 	color: #23B4CD;
 	clear: both;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 p {
@@ -293,7 +296,7 @@ p {
 
 b,
 strong {
-	font-weight: 100;
+	font-weight: 300;
 }
 
 dfn,
@@ -341,7 +344,7 @@ blockquote cite {
 
 blockquote strong,
 blockquote b {
-	font-weight: 100;
+	font-weight: 300;
 }
 
 address {
@@ -482,7 +485,7 @@ td {
 
 th {
 	border-width: 0 1px 1px 0;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 td {
@@ -599,7 +602,7 @@ input[type="submit"] {
 	font-family: "Oswald", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 300;
 	padding: 0.7917em 1.5em;
 	text-transform: uppercase;
 }
@@ -667,7 +670,7 @@ textarea:focus {
 	font-family: "Oswald", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 300;
 	letter-spacing: 0.04em;
 	line-height: 1.5;
 	text-transform: uppercase;
@@ -745,7 +748,7 @@ a:focus {
 
 .main-navigation .current-menu-item > a,
 .main-navigation .current-menu-ancestor > a {
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .main-navigation .nav-menu > ul > li:first-child,
@@ -763,7 +766,7 @@ a:focus {
 	font-family: "Oswald", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 300;
 	line-height: 1.5;
 	margin-top: 0.5em;
 }
@@ -989,7 +992,7 @@ a:focus {
 	background-color: #fff;
 	border-top: 1px solid #eaeaea;
 	border-top: 1px solid rgba(51, 51, 51, 0.1);
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .post-navigation a {
@@ -1084,7 +1087,7 @@ a:focus {
 
 .pagination .current {
 	display: inline-block;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .pagination .prev,
@@ -1142,7 +1145,7 @@ a:focus {
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-family: "Oswald", sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	line-height: 1.5;
 	text-transform: uppercase;
 }
@@ -1170,7 +1173,7 @@ a:focus {
 .image-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before,
 .comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
 	content: "\2215";
-	font-weight: 100;
+	font-weight: 300;
 	margin: 0 0.7em;
 }
 
@@ -1362,7 +1365,7 @@ img.aligncenter {
 	font-family: "Oswald", sans-serif;
 	font-size: 22px;
 	font-size: 2.2rem;
-	font-weight: 100;
+	font-weight: 300;
 	line-height: 1.3636;
 	margin-bottom: 0;
 }
@@ -1372,7 +1375,7 @@ img.aligncenter {
 	font-family: "Oswald", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 300;
 	line-height: 1.5;
 	margin: 0.5em 0 0;
 	opacity: 0.7;
@@ -1456,7 +1459,7 @@ img.aligncenter {
 
 .widget_calendar caption {
 	font-family: "Oswald", serif;
-	font-weight: 100;
+	font-weight: 300;
 	margin: 0 0 1.6em;
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
@@ -1467,7 +1470,7 @@ img.aligncenter {
 	background-color: #333;
 	color: #fff;
 	display: block;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .widget_calendar tbody a:hover,
@@ -1565,7 +1568,7 @@ img.aligncenter {
 
 .widget_rss .rsswidget {
 	border: 0;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .widget_rss .rsswidget img {
@@ -1924,7 +1927,7 @@ a.post-thumbnail:focus {
 .sticky-post {
 	background-color: #333;
 	color: #fff;
-	font-weight: 100;
+	font-weight: 300;
 	letter-spacing: 0.04em;
 	padding: 0.25em 0.5em;
 	position: absolute;
@@ -2338,7 +2341,7 @@ a.post-thumbnail:focus {
 	color: #FAFAFA;
 	display: inline-block;
 	font-family: "Oswald", sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	line-height: 1;
 	margin-top: 0.4375em;
 	padding: 0.4167em 0.8333em;
@@ -2362,7 +2365,7 @@ a.post-thumbnail:focus {
 	font-family: "Oswald", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 300;
 	display: block;
 	letter-spacing: 0.04em;
 	line-height: 1.5;
@@ -2399,7 +2402,7 @@ a.post-thumbnail:focus {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
 	font-family: "Oswald", sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	padding-top: 1.6em;
 }
 
@@ -2672,7 +2675,7 @@ p > video {
 	font-family: "Oswald", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-weight: 100;
+	font-weight: 300;
 	letter-spacing: 0.04em;
 	line-height: 1.5;
 	text-transform: uppercase;
@@ -4141,6 +4144,7 @@ p > video {
 		max-width: 413px;
 		position: relative;
 		width: 18.4118%;
+		border-radius: 0 0 20px 20px;
 	}
 
 	.secondary {
@@ -4472,6 +4476,7 @@ p > video {
 	.widget textarea {
 		padding: 0.4583em;
 		box-shadow: 1px 1px 4px 1px #CCC9C9 inset;
+		border-radius: 0 0 5px 5px;
 	}
 
 	.widget .wp-caption-text,

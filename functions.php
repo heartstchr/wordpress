@@ -230,7 +230,7 @@ function manageScripts_scripts() {
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.2' );
 	
 	// load new font
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Oswald:300|Lato:400,300', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Oswald:300|Roboto', array(), CHILD_THEME_VERSION );
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'twentyfifteen-style', get_stylesheet_uri() );
